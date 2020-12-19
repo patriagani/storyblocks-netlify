@@ -1,0 +1,28 @@
+{
+  "name": "storyblocks-netlify",
+  "version": "1.0.0",
+  "description": "storyblocks link download generator backend using netlify functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patriagani/storyblocks-netlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patriagani/storyblocks-netlify/issues"
+  },
+  "homepage": "https://github.com/patriagani/storyblocks-netlify#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.2",
+    "request": "^2.88.2",
+    "serverless-http": "^2.6.0"
+  }
+}
